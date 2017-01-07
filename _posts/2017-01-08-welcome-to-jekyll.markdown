@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Beijipc!"
 date:   2017-01-08 02:06:28 +0800
 categories: jekyll update
 ---
