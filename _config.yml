@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: 江玲华的blog
 email: jianglinghua.china@gmail.com
-description: > # personalize your new site.
+description: > # 分享总结.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: beijipc
