@@ -5,6 +5,7 @@ date:   2017-02-06
 categories: IDE
 ---
 微信小程序里的wxml和wxss是个奇葩的产物，在Atom里不认识这个文件类型，代码无法着色。通过以下方法可以为atom定制支持。
+
 - 打开Atom - Config...
 - 在里面添加如下代码：
 
