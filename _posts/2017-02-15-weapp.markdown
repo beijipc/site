@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "微信小程序踩过的坑"
+date:   2017-02-15
+categories: weapp
+---
+
+### 记录一下微信小程序里踩过的坑
+
+- android下`Array.findIndex`不执行，也不报错。devtools和IOS都没有问题
+- IOS下`new Date('2017-02-15 13:04:17').getTime()`返回的是一个空的Number，需要使用`new Date('2017/02/15 13:04:17').getTime()`
+- font icon可以使用base64。打开[motobit]，选择woff文件生成base64，点击生成。在当前页面打开控制台，`document.getElementById("resultdata").value.replace(/\n/g,'')`，把base64码复制粘帖到css中。
+
+``` CSS
+@font-face {
+    font-family: 'iconfont';
+    src: url(data:application/font-woff;charset=utf-8;base64,把base64串粘帖到这里) format('woff');
+}
+.iconfont{
+    font-family: "iconfont";
+}
+```
+
+-
+
+
+[motobit]: http://www.motobit.com/util/base64-decoder-encoder.asp

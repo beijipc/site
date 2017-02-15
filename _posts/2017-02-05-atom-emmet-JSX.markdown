@@ -9,9 +9,9 @@ categories: IDE
 - 打开Atom - Keymap
 - 在里面添加如下代码：
 
-{% highlight CoffeeScript %}
+``` CoffeeScript
 'atom-text-editor[data-grammar~="jsx"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
-{% endhighlight %}
+```
 
 现在，回到你的编辑器。在JSX中可以找回emmet带来的快感。
